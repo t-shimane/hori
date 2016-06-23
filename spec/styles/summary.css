@@ -1,0 +1,46 @@
+.summary_contents{
+	width:80%;
+	margin:0px auto;
+}
+
+.hori_name{
+	width:100%;
+	font-size:30px;
+	font-weight:bold;
+	color:rgb(70,70,70);
+}
+
+.hori_count{
+	font-size:15px;
+	color:rgb(100,100,100);
+	text-align:right;
+}
+
+.result_list{
+	width:90%;
+	margin:10px auto;
+}
+
+.result{
+	width:100%;
+	margin:10px auto;
+	background-color:rgb(255,255,255);
+	border:1px solid rgb(183,207,255);
+	border-radius:20px;
+}
+
+.result_value{
+	width:90%;
+	margin:15px 0px 0px 15px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+}
+
+.update_time{
+	width:90%;
+	margin:3px 10px 10px 10px;
+	font-size:12px;
+	font-style:italic;
+	text-align:right;
+}

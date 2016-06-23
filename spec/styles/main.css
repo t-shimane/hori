@@ -1,0 +1,45 @@
+.summary_list{
+	width:90%;
+	margin:auto;
+}
+
+.hori_summary{
+	width:100%;
+	margin-top:10px;
+	background-color:rgb(255,255,255);
+	border:1px solid rgb(183,207,255);
+	border-radius:20px;
+}
+
+.hori_summary:hover{
+	background-color:rgb(183,207,255);
+	border:1px solid rgb(255,255,255);
+}
+
+.summary_row{
+	margin:10px;
+}
+
+.hori_name{
+	width:70%;
+	font-size:30px;
+	float:left;
+	font-weight:bold;
+	border-bottom:1px solid rgb(0,0,0);
+	color:rgb(70,70,70);
+}
+
+.hori_count{
+	font-size:15px;
+	color:rgb(100,100,100);
+	float:left;
+}
+
+.hori_last_update{
+	width:70%;
+	font-size:12px;
+	font-style:italic;
+	text-align:right;
+	float:left;
+
+}

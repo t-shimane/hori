@@ -1,0 +1,43 @@
+
+.result{
+	width:100%;
+	margin:10px auto;
+	background-color:rgb(255,255,255);
+	border:1px solid rgb(183,207,255);
+	border-radius:20px;
+	animation:viewSummary 1s linear 0s 1 normal;
+}
+
+.result_value{
+	width:90%;
+	margin:15px 0px 0px 15px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+}
+
+.update_time{
+	width:90%;
+	margin:3px 10px 10px 10px;
+	font-size:12px;
+	font-style:italic;
+	text-align:right;
+}
+
+@keyframes viewSummary{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+@keyframes removeStyle{
+	0%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+	}
+}

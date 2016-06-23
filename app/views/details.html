@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>summary</title>
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" href="../styles/common.css">
+	<link rel="stylesheet" href="../styles/details.css">
+	<link rel="stylesheet" href="../scripts/uicomponent/result/result.css">
+</head>
+<body>
+	<header class="common_header">
+		hori
+		<div class="common_back" id="back">
+			＜
+		</div>
+		<div id="add" class="common_add">
+			＋
+		</div>
+		<div class="common_setting">
+			
+		</div>
+	</header>
+	
+	<div class="common_contents">
+		<div class="summary_contents">
+			<div class="hori_summary">
+				<input type="text" value="" class="hori_name" id="horiName">
+				<div class="hori_count" id="horiCount">堀回数 0回</div>
+			</div>
+
+			<!-- 結果一覧 -->
+			<div id="resultList" class="result_list"></div>	
+		</div>
+	</div>
+	<script src="../scripts/common/moduleManager.js"></script>
+	<script src="../scripts/common/storageManager.js"></script>
+	<script src="../scripts/common/TransferParameter.js"></script>
+	<script src="../scripts/common/dateManager.js"></script>
+	<script src="../scripts/common/swipe.js"></script>
+	<script src="../scripts/uicomponent/commonlist/commonList.js"></script>
+	<script src="../scripts/uicomponent/result/result.js"></script>
+	<script src="../scripts/service/dbManager.js"></script>
+	<script src="../scripts/service/summaryDataService.js"></script>
+	<script src="../scripts/service/resultDataService.js"></script>
+	<script src="../scripts/details/detailsController.js"></script>
+</body>
+</html>
